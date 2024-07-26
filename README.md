@@ -14,8 +14,8 @@ This is a simple score counter application designed to track the scores for two 
 To use this application, simply clone the repository and open the `index.html` file in your web browser.
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/bobocoro/basketballScoreboard/
+cd basketballScoreboard
 open index.html
 ```
 
@@ -47,6 +47,3 @@ If you'd like to contribute to this project, please fork the repository and use 
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-```
-
-Replace `<repository-url>` and `<repository-directory>` with your actual repository URL and directory name. Adjust the `LICENSE` section if you have a different license. This `README.md` file provides a comprehensive overview of your project, including installation, usage, and contributing guidelines.
