@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('fonts/CursedTimerULiL-Aznm.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A ;
+    font-family: 'Verdana';
+    font-weight: bolder;
+    color: #EEEEEE; 
+    text-align: center;
+    height: 100vh;
+}
+
+.scoreboard {
+    margin: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    padding-top: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #080001;
+}
+
+.button-row {
+    padding-top: 30px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#increment-btn {
+    border: 2px solid #9AABD8;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: #1B244A ;
+    color: #9AABD8 ;
+    border-radius: 5px;
+    font-weight: regular;
+    
+}
+
+
+#increment-btn:hover{
+    background-color: #3a3d42;
+}
+
+#increment-btn:active {
+    background-color: #2c3e50; /* Change to a darker shade when clicked */
+    transform: scale(0.98); /* Slightly scale down the button to give a click effect */
+}
+
+#save-btn {
+    font: 'Cursed Timer ULiL';
+
+    background: #91a700;
+}
+
+#save-el {
+    font: 'Cursed Timer ULiL';
+    font-weight: bold;
+}

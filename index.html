@@ -1,0 +1,49 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Score Counter</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class = "scoreboard">
+            <div class = "team">
+                <h2>HOME</h2>
+                <div class="score-container">
+                    <div class="score" id="home-score">0</div>
+                </div>
+                <div class="button-row">
+                    <button id="increment-btn" onclick="increment('home', 1)">+1</button>
+                    <button id="increment-btn" onclick="increment('home',2)">+2</button>
+                    <button id="increment-btn" onclick="increment('home',3)">+3</button>
+                </div>
+
+            </div>
+            <div>
+                <h2>GUEST</h2>
+                <div class="score-container">
+                    <div class="score" id="guest-score">0</div>
+            </div>
+            <div class="button-row">
+                    <button id="increment-btn" onclick="increment('guest', 1)">+1</button>
+                    <button id="increment-btn" onclick="increment('guest', 2)">+2</button>
+                    <button id="increment-btn" onclick="increment('guest', 3)">+3</button>
+            </div>
+
+            </div>
+                
+            </div>
+        </div>
+        <div>
+            <button id="increment-btn" onclick="newgame()">new game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
